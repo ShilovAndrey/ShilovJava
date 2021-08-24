@@ -1,7 +1,5 @@
 package ru.testTask.shilovJava;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class Tasks {
@@ -22,6 +20,7 @@ public class Tasks {
             input = (int) scanner.nextFloat();
             checkInputTask1(input);
         } else if (scanner.hasNext()) {
+            String line = scanner.next();
             System.out.println("Неправильный ввод в Задании_1. Введите число в формате int, double или float");
         }
     }

@@ -33,6 +33,6 @@ public class BracketChecker {
             }
         }
         if(!theStack.isEmpty())
-            System.out.println("Error: missimg right delimiter");
+            System.out.println("Error: missing right delimiter");
     }
 }
