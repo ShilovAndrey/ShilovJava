@@ -20,7 +20,7 @@ public class Tasks {
             input = (int) scanner.nextFloat();
             checkInputTask1(input);
         } else if (scanner.hasNext()) {
-            String line = scanner.next();
+            String line = scanner.nextLine();
             System.out.println("Неправильный ввод в Задании_1. Введите число в формате int, double или float");
         }
     }
@@ -38,7 +38,7 @@ public class Tasks {
         if (scanner.hasNextInt() | scanner.hasNextFloat() | scanner.hasNextDouble()) {
             System.out.println("Неправильный ввод Задание_2. Введите имя в формате String");
         } else if (scanner.hasNext()) {
-            String line = scanner.next();
+            String line = scanner.nextLine();
             if (line.equalsIgnoreCase("Вячеслав"))
                 System.out.println("Привет, Вячеслав");
             else
